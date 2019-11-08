@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rádio Multimidia</title>
+	<link rel="icon" href="1.png" type="imagem/gif"> 
+	<link rel="stylesheet" href="style.css"></link>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+
+	<ul id="playlist1">
+			<li><a href="felipe.mp3">
+					<img id="cantores" src="unnamed.jpg">
+					<h4>Sessão do Descarrego</h4>
+			</a></li>
+			<li><a href="don.mp3">
+					<img id="cantores" src="don.jpg">
+					<h4>Na maciota</h4>
+			</a></li>
+			<li><a href="jonas.mp3">
+				<img id="cantores" src="jonas.jpg">
+				<h4>Ta Faltando Eu</h4>
+			</a></li>
+	</ul>
+	<ul id="playlist2">
+			<li><a href="matue.mp3">
+					<img id="cantores" src="matue.jpg">
+					<h4>Kenny g</h4>
+			</a></li>
+			<li><a href="xand.mp3">
+					<img id="cantores" src="xand.jpg">
+					<h4>Como é que faz</h4>
+			</a></li>
+			<li><a href="alo2.mp3">
+				<img id="cantores" src="alok.jpg">
+				<h4>Hear me now</h4>
+		</a></li>
+	</ul>
+	
+	<ul id="playlist3">
+			<li><a href="ze.mp3">
+					<img id="cantores" src="ze.png">
+					<h4>Se você se entregar</h4>
+			</a></li>
+			<li><a href="mash.mp3">
+					<img id="cantores" src="drop.jpg">
+					<h4>Marshmello</h4>
+			</a></li>
+			<li><a href="ferrugem.mp3">
+				<img id="cantores" src="ferrugem.jpg">
+				<h4>Sonho</h4>
+		</a></li>
+	</ul>
+	<ul id="playlist4">
+		<li><a href="misa.mp3">
+				<img id="cantores" src="misa.jpg">
+				<h4>Sem Roteiro</h4>
+		</a></li>
+		<li><a href="hungria.mp3">
+				<img id="cantores" src="hungria.jpg">
+				<h4>Beijo com Trap</h4>
+		</a></li>
+		<li><a href="Negrodrama.mp3">
+			<img id="cantores" src="negodrama.png">
+			<h4>Nego Drama</h4>
+		</a></li>
+	</ul>
+	<ul id="playlist5">
+		<li><a href="gd.mp3">
+				<img id="cantores" src="gd.jpg">
+				<h4>Festinha lá em casa</h4>
+		</a></li>
+		<li><a href="pixote.mp3">
+				<img id="cantores" src="pixote.jpg">
+				<h4>Saudade Arregaça</h4>
+		</a></li>
+		<li><a href="alok1.mp3">
+			<img id="cantores" src="fuego.jpg">
+			<h4>Fuego</h4>
+		</a></li>
+	</ul>
+	<h4>Onda</h4>
+	<canvas id="canvas"></canvas>
+	<h4>Frequência</h4>
+	<canvas id ="canvas2"></canvas>
+	<p>Volume:</p>
+	<div class="slider-wrapper">
+	<input id="volume" type="range" min="0" max="1" value="7" step="0.001"/>
+	</div>
+    <p>Balanço:</p>
+    <input id="balanco" type="range" min="-1" max="1" step="0.001" value="0"/>
+	<audio id="audio" controls="controls" autoplay>
+		<source src="felipe.mp3">
+		</source>
+	</audio>	
+	<script type = "text/javascript" src ="index.js"></script>
+</body>
+</html>

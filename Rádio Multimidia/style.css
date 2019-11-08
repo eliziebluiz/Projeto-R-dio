@@ -1,0 +1,74 @@
+body{
+    background-image: url(12.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+p{
+    color: white;
+}
+b{
+    color: white;
+}
+h3{
+    color: white;
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+#cantores{
+    height: 130px; 
+    width: 130px;
+}
+#audio{
+    height: 40px; 
+    width: 1290px;
+    background-color:purple;
+}
+#playlist{ 
+    list-style: none; 
+    text-align: center;
+    float: right;
+}
+#playlist1{ 
+    list-style: none; 
+    text-align: center;
+    float: right;
+}
+#playlist2{ 
+    list-style: none; 
+    text-align: center;
+    float: right;
+}
+#playlist3{ 
+    list-style: none; 
+    text-align: center;
+    float: right;
+}
+#playlist4{ 
+    list-style: none; 
+    text-align: center;
+    float: right;
+}
+#playlist5{ 
+    list-style: none; 
+    text-align: center;
+    float: right;
+}
+.slider-wrapper input {
+  width: 150px;
+  height: 20px;
+  margin: 10;
+  transform-origin: 75px 75px;
+}
+h4{
+    color:white;
+}
+canvas{
+    width:401px;
+    height:150px;
+}
